@@ -6,8 +6,8 @@
  * @Description: In User Settings Edit
  */
 import 'package:get/get.dart';
-import 'package:network/widgets/loading.dart';
-import 'package:network/widgets/toast.dart';
+import 'package:get_net_work/widgets/loading.dart';
+import 'package:get_net_work/widgets/toast.dart';
 import 'env_config.dart';
 import 'interceptors/interceptors.dart';
 

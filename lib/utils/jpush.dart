@@ -12,9 +12,9 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:jpush_flutter/jpush_flutter.dart';
-import 'package:network/services/storage.dart';
-import 'package:network/utils/log.dart';
-import 'package:network/values/storage_value.dart';
+import 'package:get_net_work/services/storage.dart';
+import 'package:get_net_work/utils/log.dart';
+import 'package:get_net_work/values/storage_value.dart';
 
 /// 激光推送
 class JPushService {
@@ -48,9 +48,7 @@ class JPushService {
             orderNumber = msg['extras']['orderId'] ?? '';
           }
         }
-        if (orderNumber.isBlank == false) {
-         
-        }
+        if (orderNumber.isBlank == false) {}
       }, onReceiveMessage: (Map<String, dynamic> message) async {
         MyLogUtil.d('flutter onReceiveMessage: $message');
       }, onReceiveNotificationAuthorization:

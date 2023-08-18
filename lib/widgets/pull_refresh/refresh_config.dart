@@ -7,7 +7,7 @@
  * @FilePath: /jufubao_shop_app/lib/common/widgets/pull_refresh/refresh_config.dart
  */
 import 'package:flutter/material.dart';
-import 'package:network/styles/styles.dart';
+import 'package:get_net_work/styles/styles.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 
 import 'refresh_footer.dart';

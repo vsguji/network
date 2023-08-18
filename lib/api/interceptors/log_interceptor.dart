@@ -8,8 +8,8 @@
 import 'dart:async';
 import 'package:get/get.dart';
 import 'package:get/get_connect/http/src/request/request.dart';
-import 'package:network/extension/map.dart';
-import 'package:network/utils/log.dart';
+import 'package:get_net_work/extension/map.dart';
+import 'package:get_net_work/utils/log.dart';
 
 /// 日志拦截器
 FutureOr<Request> logInterceptor(request) async {

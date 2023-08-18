@@ -15,8 +15,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:flutter_app_update/azhon_app_update.dart';
 import 'package:flutter_app_update/update_model.dart';
-import 'package:network/api/api_repository.dart';
-import 'package:network/styles/styles.dart';
+import 'package:get_net_work/api/api_repository.dart';
+import 'package:get_net_work/styles/styles.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 
 /// 应用版本更新

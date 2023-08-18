@@ -1,3 +1,5 @@
+// ignore_for_file: depend_on_referenced_packages
+
 /*
  * @Author: your name
  * @Date: 2023-02-16 09:25:35
@@ -10,11 +12,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
-// ignore: depend_on_referenced_packages
 import 'package:fcontrol_nullsafety/fdefine.dart';
-import 'package:network/styles/app_colors.dart';
-import 'package:network/styles/my_text_style.dart';
-import 'package:network/utils/focus.dart';
+import 'package:get_net_work/styles/app_colors.dart';
+import 'package:get_net_work/styles/my_text_style.dart';
+import 'package:get_net_work/utils/focus.dart';
 
 class Alert {
   /// 文本提示框

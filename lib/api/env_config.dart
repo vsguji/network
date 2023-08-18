@@ -5,7 +5,7 @@
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  */
-import 'package:network/utils/url.dart';
+import 'package:get_net_work/utils/url.dart';
 
 class AppEnv {
   //

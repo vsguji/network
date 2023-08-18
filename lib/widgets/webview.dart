@@ -1,13 +1,13 @@
-
 import 'package:flutter/material.dart';
-import 'package:network/styles/styles.dart';
-import 'package:network/widgets/my_app_bar.dart';
+import 'package:get_net_work/styles/styles.dart';
+import 'package:get_net_work/widgets/my_app_bar.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class WebViewPage extends StatefulWidget {
   final String title;
   final String url;
-  const WebViewPage({Key? key,required this.title,required this.url}) : super(key: key);
+  const WebViewPage({Key? key, required this.title, required this.url})
+      : super(key: key);
 
   @override
   State<WebViewPage> createState() => _WebViewPageState();
@@ -27,8 +27,8 @@ class _WebViewPageState extends State<WebViewPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: myAppBar(title: widget.title, defaultFlexibleSpace: false),
-        body: WebViewWidget(controller: controller),
+      appBar: myAppBar(title: widget.title, defaultFlexibleSpace: false),
+      body: WebViewWidget(controller: controller),
     );
   }
 }

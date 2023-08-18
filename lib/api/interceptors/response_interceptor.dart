@@ -9,15 +9,15 @@ import 'dart:async';
 
 import 'package:get/get.dart';
 import 'package:get/get_connect/http/src/request/request.dart';
-import 'package:network/api/net_work.dart';
-import 'package:network/routes/app_pages.dart';
-import 'package:network/services/auth_services.dart';
-import 'package:network/services/storage.dart';
-import 'package:network/values/const_value.dart';
-import 'package:network/values/storage_value.dart';
-import 'package:network/widgets/alert.dart';
-import 'package:network/widgets/loading.dart';
-import 'package:network/widgets/toast.dart';
+import 'package:get_net_work/api/net_work.dart';
+import 'package:get_net_work/routes/app_pages.dart';
+import 'package:get_net_work/services/auth_services.dart';
+import 'package:get_net_work/services/storage.dart';
+import 'package:get_net_work/values/const_value.dart';
+import 'package:get_net_work/values/storage_value.dart';
+import 'package:get_net_work/widgets/alert.dart';
+import 'package:get_net_work/widgets/loading.dart';
+import 'package:get_net_work/widgets/toast.dart';
 
 /// 注册回调监听、错误处理
 FutureOr<dynamic> responseInterceptor(

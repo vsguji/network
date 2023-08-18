@@ -6,7 +6,7 @@
  * @Description: In User Settings Edit
  */
 import 'package:flutter/material.dart';
-import 'package:network/styles/styles.dart';
+import 'package:get_net_work/styles/styles.dart';
 
 class ThemeConfig {
   static ThemeData get lightThemeData => ThemeData(

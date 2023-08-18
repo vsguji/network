@@ -8,8 +8,8 @@
 import 'dart:async';
 import 'package:get/get.dart';
 import 'package:get/get_connect/http/src/request/request.dart';
-import 'package:network/values/const_value.dart';
-import 'package:network/widgets/loading.dart';
+import 'package:get_net_work/values/const_value.dart';
+import 'package:get_net_work/widgets/loading.dart';
 
 /// 注册请求监听
 FutureOr<Request> requestInterceptor(Request request) async {

@@ -6,9 +6,9 @@
  * @Description: In User Settings Edit
  */
 import 'package:get/get.dart';
-import 'package:network/api/net_work.dart';
-import 'package:network/routes/app_pages.dart';
-import 'package:network/widgets/alert.dart';
+import 'package:get_net_work/api/net_work.dart';
+import 'package:get_net_work/routes/app_pages.dart';
+import 'package:get_net_work/widgets/alert.dart';
 
 mixin NetWork {
   ///

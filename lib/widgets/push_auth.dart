@@ -9,7 +9,7 @@ import 'package:fbutton_nullsafety/fbutton_nullsafety.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:network/styles/styles.dart';
+import 'package:get_net_work/styles/styles.dart';
 
 class JPushAuth {
   static Future showAlert(String text,

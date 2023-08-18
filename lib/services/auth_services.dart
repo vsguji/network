@@ -6,8 +6,8 @@
  * @Description: In User Settings Edit
  */
 import 'package:get/get.dart';
-import 'package:network/services/storage.dart';
-import 'package:network/values/storage_value.dart';
+import 'package:get_net_work/services/storage.dart';
+import 'package:get_net_work/values/storage_value.dart';
 
 class AuthService extends GetxService {
   static AuthService get to => Get.find();
@@ -23,6 +23,6 @@ class AuthService extends GetxService {
 
   void logOut() {
     isLoggedIn.value = false;
-     StorageService.instance.setBool(StorageValue.userOnLine, false);
+    StorageService.instance.setBool(StorageValue.userOnLine, false);
   }
 }
