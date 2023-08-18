@@ -4,7 +4,6 @@
  * @LastEditTime: 2023-02-23 18:54:35
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/extension/controller.dart
  */
 import 'package:get/get.dart';
 

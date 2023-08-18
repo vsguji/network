@@ -4,7 +4,6 @@
  * @LastEditTime: 2023-08-18 11:00:34
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/widgets/update_version.dart
  */
 
 import 'dart:io';

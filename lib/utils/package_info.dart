@@ -4,7 +4,6 @@
  * @LastEditTime: 2023-02-24 16:45:38
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/utils/package_info.dart
  */
 import 'package:package_info_plus/package_info_plus.dart';
 /// 获取应用信息

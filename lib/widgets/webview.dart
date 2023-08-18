@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:jufubao_shop_app/common/styles/app_colors.dart';
-import 'package:jufubao_shop_app/common/widgets/my_app_bar.dart';
+import 'package:network/styles/styles.dart';
+import 'package:network/widgets/my_app_bar.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class WebViewPage extends StatefulWidget {
@@ -17,7 +17,6 @@ class _WebViewPageState extends State<WebViewPage> {
   late final WebViewController controller;
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     controller = WebViewController()
       ..setJavaScriptMode(JavaScriptMode.unrestricted)

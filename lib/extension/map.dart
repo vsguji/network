@@ -4,7 +4,6 @@
  * @LastEditTime: 2023-02-23 11:20:12
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/extension/map.dart
  */
 extension MapTostructureString on Map {
   String toStructureString() {

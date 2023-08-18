@@ -4,11 +4,10 @@
  * @LastEditTime: 2023-02-23 11:48:26
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/api/base_api.dart
  */
 import 'package:get/get.dart';
-import 'package:jufubao_shop_app/common/widgets/loading.dart';
-import 'package:jufubao_shop_app/common/widgets/toast.dart';
+import 'package:network/widgets/loading.dart';
+import 'package:network/widgets/toast.dart';
 import 'env_config.dart';
 import 'interceptors/interceptors.dart';
 

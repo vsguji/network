@@ -4,7 +4,6 @@
  * @LastEditTime: 2023-02-22 17:45:49
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/utils/log.dart
  */
 import 'package:logger/logger.dart';
 
@@ -13,31 +12,31 @@ class MyLogUtil {
 
   // Level.debug
   static void d(dynamic message, [dynamic error, StackTrace? stackTrace]) {
-    log.d(message, error, stackTrace);
+    log.d(message, error: error, stackTrace: stackTrace);
   }
 
   // Level.verbose
   static void v(dynamic message, [dynamic error, StackTrace? stackTrace]) {
-    log.v(message, error, stackTrace);
+    log.v(message, error: error, stackTrace: stackTrace);
   }
 
   // Level.warning
   static void w(dynamic message, [dynamic error, StackTrace? stackTrace]) {
-    log.w(message, error, stackTrace);
+    log.w(message, error: error, stackTrace: stackTrace);
   }
 
   // Level.wtf
   static void wtf(dynamic message, [dynamic error, StackTrace? stackTrace]) {
-    log.wtf(message, error, stackTrace);
+    log.wtf(message, error: error, stackTrace: stackTrace);
   }
 
   // Level.error
   static void e(dynamic message, [dynamic error, StackTrace? stackTrace]) {
-    log.e(message, error, stackTrace);
+    log.e(message, error: error, stackTrace: stackTrace);
   }
 
   // Level.info
   static void i(dynamic message, [dynamic error, StackTrace? stackTrace]) {
-    log.i(message, error, stackTrace);
+    log.i(message, error: error, stackTrace: stackTrace);
   }
 }

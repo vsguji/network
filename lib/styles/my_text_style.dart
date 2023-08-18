@@ -4,7 +4,6 @@
  * @LastEditTime: 2023-04-21 16:31:34
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/styles/my_text_style.dart
  */
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

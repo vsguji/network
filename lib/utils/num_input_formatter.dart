@@ -4,7 +4,6 @@
  * @LastEditTime: 2023-03-01 14:17:46
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/utils/num_input_formatter.dart
  */
 import 'package:flutter/services.dart';
 

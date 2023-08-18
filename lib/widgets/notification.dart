@@ -4,13 +4,12 @@
  * @LastEditTime: 2023-04-21 17:01:29
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao-shop-app/lib/common/widgets/notification.dart
  */
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:jufubao_shop_app/common/styles/styles.dart';
+import 'package:network/styles/styles.dart';
 import 'package:tapped/tapped.dart';
 
 class JFBLocalNotification {

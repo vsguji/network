@@ -4,13 +4,12 @@
  * @LastEditTime: 2023-02-23 09:32:41
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/api/interceptors/log_interceptor.dart
  */
 import 'dart:async';
 import 'package:get/get.dart';
 import 'package:get/get_connect/http/src/request/request.dart';
-import 'package:jufubao_shop_app/common/extension/map.dart';
-import 'package:jufubao_shop_app/common/utils/log.dart';
+import 'package:network/extension/map.dart';
+import 'package:network/utils/log.dart';
 
 /// 日志拦截器
 FutureOr<Request> logInterceptor(request) async {

@@ -4,7 +4,6 @@
  * @LastEditTime: 2023-02-16 18:09:14
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/delegates/data_source.dart
  */
 abstract class ListDataSouceDelegate {
   ListDataSouceDelegate._();

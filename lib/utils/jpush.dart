@@ -4,7 +4,6 @@
  * @LastEditTime: 2023-04-21 16:22:43
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/utils/jpush.dart
  */
 import 'dart:convert';
 import 'dart:io';
@@ -13,11 +12,9 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:jpush_flutter/jpush_flutter.dart';
-import 'package:jufubao_shop_app/common/routes/app_pages.dart';
-import 'package:jufubao_shop_app/common/services/storage.dart';
-import 'package:jufubao_shop_app/common/utils/log.dart';
-import 'package:jufubao_shop_app/common/values/storage_value.dart';
-import 'package:jufubao_shop_app/pages/order/details/controller.dart';
+import 'package:network/services/storage.dart';
+import 'package:network/utils/log.dart';
+import 'package:network/values/storage_value.dart';
 
 /// 激光推送
 class JPushService {
@@ -52,13 +49,7 @@ class JPushService {
           }
         }
         if (orderNumber.isBlank == false) {
-          if (Get.currentRoute == Routes.oderDetails) {
-            Get.find<OrderDetailsController>().orderNumber = orderNumber;
-            Get.find<OrderDetailsController>().getDetailsInfo();
-          } else {
-            Get.toNamed(Routes.oderDetails,
-                arguments: {'orderNumber': orderNumber});
-          }
+         
         }
       }, onReceiveMessage: (Map<String, dynamic> message) async {
         MyLogUtil.d('flutter onReceiveMessage: $message');

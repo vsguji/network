@@ -4,7 +4,6 @@
  * @LastEditTime: 2023-02-13 18:16:33
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/widgets/widget_shadow.dart
  */
 import 'package:flutter/material.dart';
 import '../styles/app_colors.dart';

@@ -4,14 +4,12 @@
  * @LastEditTime: 2023-04-07 14:41:23
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao-shop-app/lib/common/widgets/push_auth.dart
  */
 import 'package:fbutton_nullsafety/fbutton_nullsafety.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:jufubao_shop_app/common/styles/app_colors.dart';
-import 'package:jufubao_shop_app/common/styles/my_text_style.dart';
+import 'package:network/styles/styles.dart';
 
 class JPushAuth {
   static Future showAlert(String text,

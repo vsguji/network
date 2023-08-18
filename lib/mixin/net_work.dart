@@ -4,12 +4,11 @@
  * @LastEditTime: 2023-08-03 10:25:22
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/mixin/net_work.dart
  */
 import 'package:get/get.dart';
-import 'package:jufubao_shop_app/common/api/net_work.dart';
-import 'package:jufubao_shop_app/common/routes/app_pages.dart';
-import 'package:jufubao_shop_app/common/widgets/alert.dart';
+import 'package:network/api/net_work.dart';
+import 'package:network/routes/app_pages.dart';
+import 'package:network/widgets/alert.dart';
 
 mixin NetWork {
   ///

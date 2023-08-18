@@ -4,6 +4,5 @@
  * @LastEditTime: 2023-08-18 10:43:53
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/model/models.dart
  */
 export 'base_model.dart';

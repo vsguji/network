@@ -4,7 +4,6 @@
  * @LastEditTime: 2023-02-13 13:48:39
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/styles/styles.dart
  */
 library style;
 

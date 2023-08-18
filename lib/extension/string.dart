@@ -4,7 +4,6 @@
  * @LastEditTime: 2023-02-22 11:21:02
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/extension/string.dart
  */
 import 'package:common_utils/common_utils.dart';
 

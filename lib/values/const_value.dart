@@ -4,7 +4,6 @@
  * @LastEditTime: 2023-02-28 15:17:01
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/values/const_value.dart
  */
 /// 业务状态
 class ConstValue {

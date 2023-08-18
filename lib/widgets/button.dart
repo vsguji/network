@@ -4,7 +4,6 @@
  * @LastEditTime: 2023-08-03 10:28:11
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/widgets/button.dart
  */
 import 'package:fbutton_nullsafety/fbutton_nullsafety.dart';
 import 'package:flutter/material.dart';

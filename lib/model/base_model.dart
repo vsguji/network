@@ -4,7 +4,6 @@
  * @LastEditTime: 2023-02-15 16:38:31
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/model/base_model.dart
  */
 import 'package:flutter/widgets.dart';
 

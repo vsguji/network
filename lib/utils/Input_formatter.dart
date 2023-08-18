@@ -4,7 +4,6 @@
  * @LastEditTime: 2023-02-16 18:48:14
  * @LastEditors: your name
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/utils/Input_formatter.dart
  */
 import 'package:flutter/services.dart';
 

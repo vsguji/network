@@ -4,9 +4,8 @@
  * @LastEditTime: 2023-08-08 09:54:33
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/api/env_config.dart
  */
-import 'package:jufubao_shop_app/common/utils/url.dart';
+import 'package:network/utils/url.dart';
 
 class AppEnv {
   //

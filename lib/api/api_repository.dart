@@ -4,7 +4,6 @@
  * @LastEditTime: 2023-08-18 10:40:04
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/api/api_response.dart
  */
 import 'package:network/api/api_provider.dart';
 import 'package:network/services/storage.dart';

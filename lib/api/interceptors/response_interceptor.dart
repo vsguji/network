@@ -4,21 +4,20 @@
  * @LastEditTime: 2023-03-25 17:54:24
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/api/interceptors/response_interceptor.dart
  */
 import 'dart:async';
 
 import 'package:get/get.dart';
 import 'package:get/get_connect/http/src/request/request.dart';
-import 'package:jufubao_shop_app/common/api/net_work.dart';
-import 'package:jufubao_shop_app/common/routes/app_pages.dart';
-import 'package:jufubao_shop_app/common/services/auth_services.dart';
-import 'package:jufubao_shop_app/common/services/storage.dart';
-import 'package:jufubao_shop_app/common/values/const_value.dart';
-import 'package:jufubao_shop_app/common/values/storage_value.dart';
-import 'package:jufubao_shop_app/common/widgets/alert.dart';
-import 'package:jufubao_shop_app/common/widgets/loading.dart';
-import 'package:jufubao_shop_app/common/widgets/toast.dart';
+import 'package:network/api/net_work.dart';
+import 'package:network/routes/app_pages.dart';
+import 'package:network/services/auth_services.dart';
+import 'package:network/services/storage.dart';
+import 'package:network/values/const_value.dart';
+import 'package:network/values/storage_value.dart';
+import 'package:network/widgets/alert.dart';
+import 'package:network/widgets/loading.dart';
+import 'package:network/widgets/toast.dart';
 
 /// 注册回调监听、错误处理
 FutureOr<dynamic> responseInterceptor(

@@ -4,11 +4,10 @@
  * @LastEditTime: 2023-03-30 17:05:11
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/services/auth.dart
  */
 import 'package:get/get.dart';
-import 'package:jufubao_shop_app/common/services/storage.dart';
-import 'package:jufubao_shop_app/common/values/storage_value.dart';
+import 'package:network/services/storage.dart';
+import 'package:network/values/storage_value.dart';
 
 class AuthService extends GetxService {
   static AuthService get to => Get.find();

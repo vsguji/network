@@ -4,7 +4,6 @@
  * @LastEditTime: 2023-02-24 18:42:10
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/extension/widget.dart
  */
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';

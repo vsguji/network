@@ -4,17 +4,17 @@
  * @LastEditTime: 2023-02-22 12:00:41
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/widgets/alert.dart
  */
 import 'package:fbutton_nullsafety/fbutton_nullsafety.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
-import 'package:jufubao_shop_app/common/styles/styles.dart';
 // ignore: depend_on_referenced_packages
 import 'package:fcontrol_nullsafety/fdefine.dart';
-import 'package:jufubao_shop_app/common/utils/focus.dart';
+import 'package:network/styles/app_colors.dart';
+import 'package:network/styles/my_text_style.dart';
+import 'package:network/utils/focus.dart';
 
 class Alert {
   /// 文本提示框
@@ -27,7 +27,7 @@ class Alert {
         titlePadding: const EdgeInsets.only(top: 0),
         content: Text(
           text,
-          style: MyTextStyle.s12w400(color: AppColor.mainText),
+          style: MyTextStyle.s12w400(color: AppColor.mainColor),
         ),
         confirm: FButton(
           width: 150.w,

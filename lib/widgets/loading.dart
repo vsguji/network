@@ -4,13 +4,12 @@
  * @LastEditTime: 2023-07-26 15:39:05
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/widgets/loading.dart
  */
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:jufubao_shop_app/common/styles/styles.dart';
+import 'package:network/styles/styles.dart';
 import 'package:tapped/tapped.dart';
 
 class Loading {

@@ -4,7 +4,6 @@
  * @LastEditTime: 2023-08-18 10:57:42
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /jufubao_shop_app/lib/common/styles/app_colors.dart
  */
 import 'package:flutter/material.dart';
 

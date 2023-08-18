@@ -5,16 +5,15 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:jufubao_shop_app/common/services/storage.dart';
-import 'package:jufubao_shop_app/common/styles/app_colors.dart';
-import 'package:jufubao_shop_app/common/values/storage_value.dart';
-import 'package:jufubao_shop_app/common/widgets/webview.dart';
-import 'package:webview_flutter/webview_flutter.dart';
+import 'package:network/services/storage.dart';
+import 'package:network/styles/app_colors.dart';
+import 'package:network/values/storage_value.dart';
+import 'package:network/widgets/webview.dart';
 
 /// 用户协议
 class AgreementDialog {
-  static const String agreementUrl = 'https://agreement.jufubao.cn/sandbox/consume-service-agreement.html';
-  static const String privacyUrl = 'https://agreement.jufubao.cn/sandbox/consume-privacy-agreement.html';
+  static const String agreementUrl = '';
+  static const String privacyUrl = '';
 
   showAgreement() {
     bool isShow =  StorageService.instance.getBool(StorageValue.userAgreement) ?? false;
@@ -28,7 +27,7 @@ class AgreementDialog {
         return AlertDialog(
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(8.w))),
           content: Text.rich(
-            TextSpan(style: TextStyle(fontSize: 14.w, color: AppColor.mainText, height: 2.0), children: [
+            TextSpan(style: TextStyle(fontSize: 14.w, color: AppColor.mainColor, height: 2.0), children: [
               const TextSpan(
                 text: '欢迎使用小蜜蜂核销系统，这是一款仅针对小蜜蜂核销系统使用的app，请您点击',
               ),
@@ -46,7 +45,7 @@ class AgreementDialog {
               child: Container(
                   padding: EdgeInsets.symmetric(horizontal: 100.w, vertical: 10.w),
                   decoration: BoxDecoration(
-                    color: AppColor.orangeBtnGray,
+                    color: AppColor.backgroundColor,
                     borderRadius: const BorderRadius.all(
                       Radius.circular(100),
                     ),
@@ -74,7 +73,7 @@ class AgreementDialog {
     return TextSpan(
       text: title,
       style: TextStyle(
-        color: AppColor.orangeBtnGray,
+        color: AppColor.backgroundColor,
       ),
       recognizer: TapGestureRecognizer()
         ..onTap = () {
