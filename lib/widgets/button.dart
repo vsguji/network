@@ -1,13 +1,14 @@
+// ignore_for_file: depend_on_referenced_packages
+
 /*
  * @Author: your name
  * @Date: 2023-02-16 10:10:53
- * @LastEditTime: 2023-08-03 10:28:11
+ * @LastEditTime: 2023-08-18 14:55:36
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  */
 import 'package:fbutton_nullsafety/fbutton_nullsafety.dart';
 import 'package:flutter/material.dart';
-// ignore: depend_on_referenced_packages
 import 'package:fcontrol_nullsafety/fdefine.dart';
 import 'package:get/get.dart';
 

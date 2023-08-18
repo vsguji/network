@@ -1,4 +1,4 @@
-name: network
+name: get_net_work
 description: 基础库
 version: 1.0.2
 homepage: 'https://github.com/vsguji/network'
@@ -14,8 +14,10 @@ dependencies:
   connectivity_plus: ^4.0.2
   device_info_plus: ^9.0.3
   fbutton_nullsafety: ^5.0.0 # 图文
+  fcontrol_nullsafety: ^2.0.0
   flutter_screenutil: ^5.7.0
   flutter_svg: ^2.0.5
+  flutter_spinkit: ^5.2.0
   get: ^4.6.5 # 状态管理
   get_storage: ^2.1.1
   jpush_flutter: ^2.4.7
