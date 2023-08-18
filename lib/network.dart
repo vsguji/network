@@ -1,12 +1,12 @@
 /*
  * @Author: your name
  * @Date: 2023-08-18 09:44:09
- * @LastEditTime: 2023-08-18 14:29:21
- * @LastEditors: your name
+ * @LastEditTime: 2023-08-18 15:08:55
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /network/lib/network.dart
  */
-library network;
+library get_net_work;
 
 // api
 export 'api/api.dart';
@@ -60,4 +60,3 @@ export 'widgets/toast.dart';
 export 'widgets/update_version.dart';
 export 'widgets/webview.dart';
 export 'widgets/widget_shadow.dart';
-
