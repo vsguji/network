@@ -1,6 +1,6 @@
 name: get_net_work
 description: 基础库
-version: 1.0.2
+version: 1.0.4
 homepage: 'https://github.com/vsguji/network'
 
 environment:
