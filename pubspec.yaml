@@ -4,7 +4,7 @@ version: 1.0.5
 homepage: 'https://github.com/vsguji/network'
 
 environment:
-  sdk: '>=2.19.2 <3.0.0'
+  sdk: '>=2.19.2 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
     sdk: flutter
   common_utils: ^2.1.0
   connectivity_plus: ^4.0.2
-  device_info_plus: ^9.0.3
+  device_info_plus: ^11.0.0
   fbutton_nullsafety: ^5.0.0 # 图文
   fcontrol_nullsafety: ^2.0.0
   flutter_screenutil: ^5.7.0
