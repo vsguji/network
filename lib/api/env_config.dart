@@ -1,8 +1,8 @@
 /*
  * @Author: your name
  * @Date: 2023-02-13 14:26:41
- * @LastEditTime: 2023-08-08 09:54:33
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2024-10-15 15:26:48
+ * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  */
 import 'package:get_net_work/utils/url.dart';
@@ -39,5 +39,13 @@ class EnviromentConfig {
         break;
     }
     return host;
+  }
+
+  static void setDevHost(String dev) {
+    UrlUtils.devHost = dev;
+  }
+
+  static void setReleaseHost(String host) {
+    UrlUtils.releaseHost = host;
   }
 }

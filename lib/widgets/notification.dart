@@ -1,8 +1,8 @@
 /*
  * @Author: your name
  * @Date: 2023-04-21 16:06:55
- * @LastEditTime: 2023-04-21 17:01:29
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2024-10-15 15:28:15
+ * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  */
 import 'package:flutter/material.dart';
@@ -27,7 +27,7 @@ class JFBLocalNotification {
   }
 
   static stackDialog(
-      {required AlignmentGeometry alignment,
+      {required Alignment alignment,
       required String tag,
       String title = '您有新订单,请及时处理',
       String subTitle = '您有新订单,请及时处理',
