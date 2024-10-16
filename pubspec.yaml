@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   common_utils: ^2.1.0
-  connectivity_plus: ^4.0.2
+  connectivity_plus: ^6.0.5
   device_info_plus: ^11.0.0
   fbutton_nullsafety: ^5.0.0 # 图文
   fcontrol_nullsafety: ^2.0.0
