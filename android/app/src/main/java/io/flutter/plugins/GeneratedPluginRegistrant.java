@@ -16,6 +16,11 @@ public final class GeneratedPluginRegistrant {
   private static final String TAG = "GeneratedPluginRegistrant";
   public static void registerWith(@NonNull FlutterEngine flutterEngine) {
     try {
+      flutterEngine.getPlugins().add(new com.bbflight.background_downloader.BDPlugin());
+    } catch (Exception e) {
+      Log.e(TAG, "Error registering plugin background_downloader, com.bbflight.background_downloader.BDPlugin", e);
+    }
+    try {
       flutterEngine.getPlugins().add(new dev.fluttercommunity.plus.connectivity.ConnectivityPlugin());
     } catch (Exception e) {
       Log.e(TAG, "Error registering plugin connectivity_plus, dev.fluttercommunity.plus.connectivity.ConnectivityPlugin", e);
@@ -29,11 +34,6 @@ public final class GeneratedPluginRegistrant {
       flutterEngine.getPlugins().add(new com.azhon.flutter_app_update.FlutterAppUpdatePlugin());
     } catch (Exception e) {
       Log.e(TAG, "Error registering plugin flutter_app_update, com.azhon.flutter_app_update.FlutterAppUpdatePlugin", e);
-    }
-    try {
-      flutterEngine.getPlugins().add(new com.jiguang.jpush.JPushPlugin());
-    } catch (Exception e) {
-      Log.e(TAG, "Error registering plugin jpush_flutter, com.jiguang.jpush.JPushPlugin", e);
     }
     try {
       flutterEngine.getPlugins().add(new dev.fluttercommunity.plus.packageinfo.PackageInfoPlugin());

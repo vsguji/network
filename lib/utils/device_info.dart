@@ -1,8 +1,8 @@
 /*
  * @Author: your name
  * @Date: 2023-02-22 18:30:10
- * @LastEditTime: 2023-03-22 14:21:23
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2024-10-16 11:40:46
+ * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  */
 import 'dart:io';
@@ -59,14 +59,14 @@ class DeviceUtil {
       'type': build.type,
       'isPhysicalDevice': build.isPhysicalDevice,
       'systemFeatures': build.systemFeatures,
-      'displaySizeInches':
-          ((build.displayMetrics.sizeInches * 10).roundToDouble() / 10),
-      'displayWidthPixels': build.displayMetrics.widthPx,
-      'displayWidthInches': build.displayMetrics.widthInches,
-      'displayHeightPixels': build.displayMetrics.heightPx,
-      'displayHeightInches': build.displayMetrics.heightInches,
-      'displayXDpi': build.displayMetrics.xDpi,
-      'displayYDpi': build.displayMetrics.yDpi,
+      // 'displaySizeInches':
+      //     ((build.displayMetrics.sizeInches * 10).roundToDouble() / 10),
+      // 'displayWidthPixels': build.displayMetrics.widthPx,
+      // 'displayWidthInches': build.displayMetrics.widthInches,
+      // 'displayHeightPixels': build.displayMetrics.heightPx,
+      // 'displayHeightInches': build.displayMetrics.heightInches,
+      // 'displayXDpi': build.displayMetrics.xDpi,
+      // 'displayYDpi': build.displayMetrics.yDpi,
       'serialNumber': build.serialNumber,
     };
   }

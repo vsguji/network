@@ -1,8 +1,8 @@
 /*
  * @Author: your name
  * @Date: 2022-10-06 18:07:28
- * @LastEditTime: 2023-02-24 17:17:47
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2024-10-16 11:44:32
+ * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  */
 import 'package:flutter/material.dart';
@@ -16,7 +16,7 @@ class ThemeConfig {
         primaryColor: AppColor.mainColor,
         appBarTheme: const AppBarTheme(elevation: 0),
         textTheme: const TextTheme(
-          bodyText1: StandardTextStyle.normal,
+          bodyLarge: StandardTextStyle.normal,
         ),
       );
 }

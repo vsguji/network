@@ -1,8 +1,8 @@
 /*
  * @Author: your name
  * @Date: 2023-08-18 09:44:09
- * @LastEditTime: 2023-08-18 15:08:55
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2024-10-19 20:19:12
+ * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  * @FilePath: /network/lib/network.dart
  */
@@ -10,6 +10,8 @@ library get_net_work;
 
 // api
 export 'api/api.dart';
+// 下载接口
+export 'api/down_load.dart';
 // delegate
 export 'delegates/data_source.dart';
 // extension
@@ -60,3 +62,5 @@ export 'widgets/toast.dart';
 export 'widgets/update_version.dart';
 export 'widgets/webview.dart';
 export 'widgets/widget_shadow.dart';
+// 下载进度
+export 'widgets/progress_dialog.dart';

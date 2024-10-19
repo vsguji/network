@@ -1,8 +1,8 @@
 /*
  * @Author: your name
  * @Date: 2023-02-15 11:04:33
- * @LastEditTime: 2023-02-23 11:48:26
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2024-10-16 14:42:51
+ * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  */
 import 'package:get/get.dart';
