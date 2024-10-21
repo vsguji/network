@@ -4,7 +4,7 @@ version: 1.0.5
 homepage: 'https://github.com/vsguji/network'
 publish_to: 'none'
 environment:
-  sdk: '>=2.19.2 <4.0.0'
+  sdk: '>=3.0.0 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
